@@ -1,1 +1,17 @@
 /* style.css file */
+  html,
+  body {
+    margin: 20px;
+  }
+  .login input {
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .login input:focus {
+    border-color: #2196f3;
+    outline: none;
+  }
